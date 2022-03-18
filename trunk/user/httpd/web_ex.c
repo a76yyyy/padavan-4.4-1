@@ -4181,6 +4181,8 @@ static char mentohust_log_txt[] =
 "filename=mentohust.log"
 ;
 
+#endif
+
 #if defined (APP_MINIEAP)
 static void
 do_minieap_log_file(const char *url, FILE *stream)
