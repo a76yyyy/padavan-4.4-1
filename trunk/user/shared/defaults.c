@@ -573,6 +573,11 @@ struct nvram_pair router_defaults[] = {
 	{ "ttyd_port", "7681" },
 #endif
 
+#if defined(APP_NAPT66)
+	/* NAPT66 */
+	{ "napt66_enable", "0" },
+#endif
+
 #if defined(APP_VLMCSD)
 	/* vlmcsd */
 	{ "vlmcsd_enable", "0" },
