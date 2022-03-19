@@ -1371,6 +1371,8 @@ wan_up(char *wan_ifname, int unit, int is_static)
 		{doSystem("/usr/bin/zerotier.sh start");}
 	if (nvram_match("pppoemwan_enable", "1"))
 		{doSystem("/usr/bin/detect.sh");}
+	if (nvram_match("minieap_enable", "1"))
+		{doSystem("/usr/bin/minieap.sh start");}
 }
 
 void

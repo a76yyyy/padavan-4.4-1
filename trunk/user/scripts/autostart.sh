@@ -95,3 +95,8 @@ if [ $(nvram get frpc_enable) = 1 ] ; then
 logger -t "自动启动" "正在启动frp client"
 /usr/bin/frp.sh start
 fi
+
+if [ $(nvram get minieap_enable) = 1 ] ; then
+logger -t "自动启动" "正在启动zerotier"
+/usr/bin/minieap.sh start
+fi
