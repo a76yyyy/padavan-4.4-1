@@ -575,7 +575,7 @@ struct nvram_pair router_defaults[] = {
 
 #if defined(APP_NAPT66)
 	/* NAPT66 */
-	{ "napt66_enable", "0" },
+	{ "napt66_enable", "1" },
 #endif
 
 #if defined(APP_VLMCSD)
