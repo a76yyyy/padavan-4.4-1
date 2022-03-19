@@ -91,6 +91,9 @@ function initial(){
 		showhide_div('div_vlmcsd', 0);
 	}
 	
+	if(!found_app_napt66()){
+		showhide_div('div_napt66', 0);
+	}
 }
 
 function applyRule(){
@@ -569,7 +572,7 @@ function on_ttyd_link(){
                                                 </div>
                                             </td>
                                         </tr>
-                                        
+
                                         <tr>
                                             <th><#Adm_Svc_lltd#></th>
                                             <td>
